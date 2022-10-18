@@ -22,9 +22,9 @@
                 };
                 lower_layer {//1
                         bindings = <
-   &kp LA(TAB)  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5          &trans  &trans  &trans  &trans   &trans  &DEL
+   &kp LA(TAB)  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5          &trans  &trans  &trans  &trans   &trans  &kp DEL
    &kp LALT     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0          &trans  &trans  &trans  &trans   &trans  &trans
-   &sk LALT     &trans    &trans  &trans   &trans   &trans          &trans  &trans  &trans  &trans   &trans  &trans
+   &sk LALT     &trans   &trans   &trans   &trans   &trans          &trans  &trans  &trans  &trans   &trans  &trans
                           	       &trans   &trans   &trans          &trans  &trans  &trans
                         >;
                 };
@@ -33,15 +33,15 @@
    &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &trans  &trans     &trans     &kp LPAR &kp RPAR  &kp DEL
    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10         &trans  &kp MINUS  &kp UNDER  &kp LBKT &kp RBKT  &kp PIPE
    &trans  &kp F11 &kp F12 &trans  &trans  &trans          &trans  &kp EQUAL  &kp PLUS   &kp LBRC &kp RBRC  &kp BSLH
-                           &trans  &trans  &trans          &trans  &trans  &trans
+                           &trans  &trans  &trans          &trans  &trans     &trans
                         >;
                 };
                 ultra_layer {//3
                         bindings = <
-   &kp GRAVE  &kp EXCL  &kp AT    &kp HASH        &kp DLLR &kp PRCNT         &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &trans
-   &trans     &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR          &trans       &trans     &trans         &trans       &trans        &trans
-   &trans     &trans    &trans    &trans          &trans   &trans            &trans       &trans     &trans         &trans       &trans        &trans
-                                  &trans          &trans   &trans            &trans       &trans     &trans
+   &kp GRAVE  &kp EXCL  &kp AT    &kp HASH  &kp DLLR &kp PRCNT         &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &trans
+   &trans     &kp CARET &kp AMPS  &kp STAR  &kp LPAR &kp RPAR          &trans       &trans     &trans         &trans       &trans        &trans
+   &trans     &trans    &trans    &trans    &trans   &trans            &trans       &trans     &trans         &trans       &trans        &trans
+                                  &trans    &trans   &trans            &trans       &trans     &trans
                         >;
                 };
         };
