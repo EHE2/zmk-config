@@ -39,7 +39,7 @@
                 ultra_layer {//3
                         bindings = <
    &kp GRAVE  &kp EXCL  &kp AT    &kp HASH  &kp DLLR &kp PRCNT         &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3       &bt BT_SEL 4  &kp PSCRN
-   &trans     &kp CARET &kp AMPS  &kp STAR  &kp LPAR &kp RPAR          &trans       &kp PG_UP    &kp HOME     &kp PAUSE+BREAK    &trans        &trans
+   &trans     &kp CARET &kp AMPS  &kp STAR  &kp LPAR &kp RPAR          &trans       &kp PG_UP    &kp HOME     &kp PAUSE_BREAK    &trans        &trans
    &trans     &trans    &trans    &trans    &trans   &trans            &trans       &kp PG_DOWN  &kp END      &kp K_APP          &trans        &trans
                                   &trans    &trans   &trans            &trans       &trans       &trans
                         >;
